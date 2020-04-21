@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Me </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body{
+        margin:0px; background:lightgray; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    header{
+        background: rgb(48, 46, 46); padding: 20px; color: white
+    }
+    .heading{margin: auto; width:100%; background: white; text-align:center;display:inline-block}
+    .body{padding:2px; background: white; width:80%; margin:auto}
+    .flex-item1{
+        flex-direction: row; width:30%; margin-right: 10px;
+    }
+    .flex-item2{
+        flex-direction: row; width:65%; padding: 3px;
+    }
+    img{
+        width:100%;
+    }
+    .about{
+        box-shadow: 0px 0px 4px 4px gray;
+    }
+    div.body{display: flex; padding: 0px 20px 0px 20px; width:auto;}
+    .title{background:rgb(48, 46, 46); color:white; padding:4px; }
+
+    input{
+        width:30%; margin:2px; padding:5px;
+    }
+    textarea{width: 80%; height: 20%;}
+    form{margin-top:20px}
+    button{width:90%; padding:10px;background: black; color:white}
+    button:hover{background: rgb(63, 61, 61) }
+
+        </style>
+   
+</head>
+<body>
+    <header><h1>PORTFOLIO</h1></header>
+    
+    <section class="body">
+            <section class="heading"><div><h3 style="font-size:22pt">AMAECHI C. VICTOR<br><h style="font-size:18pt">Brand Designer & Digital Advertiser</h></h3>
+                </div></section>
+    <div class="body">
+        <div class="flex-item1">
+            <img src="v3.jpg">
+        </div>
+        <div class="flex-item2 about">
+           <div class="title">
+            BIO DATA
+           </div>
+           <p>
+              <strong>FULLNAME:</strong>Amaechi Chimeremeze Victor<BR>
+              <strong>STATE OF ORIGIN:</strong> Ebonyi State, Nigeria.<br>
+              <strong>DATE OF BIRTH:</strong> 19th October, 1999<br>
+              <strong>ADDRESS:</strong>No 8 Cheif Ogei Str. Uratta Aba, Abia State, Nigeria<br>
+              <strong>OCCUPATION:</strong>Brand Designer & Digital Advertiser<br>
+              <strong>HOMETOWN:</strong>Ogwu, Uburu <br>
+              <strong>SLACK ID:</strong>ViQ<br>
+              <strong>PHONE:</strong>08144356330<br>
+           </p>
+           <div class="title">
+                About Me
+               </div>
+               <p>
+                    I am a social media manager, and small business owner currently living in Nigeria. My interests range from technology to entrepreneurship. I am also interested in web development, design, and programming.
+                    I love music a lot, helps me clear my head.<br><br>
+                    My Hobbies are;<br>
+                    <ul>
+                        <li>Playing Music</li>
+                        <li>Learning New Stuff</li>
+                        <li>Reading</li>
+                    </ul><br>
+                    <i>Although I read to keep the brain fit, when I'm Idle</i>
+                
+               </p>
+        </div></div>
+        <div style="padding: 10px"></div>
+                <section class="heading"><div class="title">
+                    Contact Me
+                </div><div>
+                    <form action="#" method="get">
+                        <input type="text" name="fullname" id="" placeholder="Full Name" required>
+                        <input type="email" name="Email" id="" placeholder="Enter Email" required>
+                        <input type="text" name="phone" id="" placeholder="Enter Phone Number"><br><br>
+                        <textarea name="message" id="" cols="10" rows="10" placeholder="Enter message"></textarea><br>
+                        <button onclick="submit()">Submit</button>
+                    </form>
+                </div>
+            </section>
+    </section>
+    <header>CopyWrite &copy; 2020</header>
+</body>
+</html>
